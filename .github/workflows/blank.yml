@@ -1,0 +1,2 @@
+- name: Hello World from python
+  uses: RemcoHalman/python-helloworld-action@v0.0.1
