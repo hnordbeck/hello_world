@@ -1,2 +1,12 @@
-- name: Hello World from python
-  uses: RemcoHalman/python-helloworld-action@v0.0.1
+name: Hello World from python
+
+description: This action says hello world
+
+runs:
+  using: docker # we are saying this action will run on docker
+  image: 'src/Dockerfile' # we will use our own Dockerfile to build an image and run it.
+
+# for publishing purposes
+branding: #generates a logo for our action
+  icon: arrow-down #icon of the image
+  color: orange # background color of the logo of our action
